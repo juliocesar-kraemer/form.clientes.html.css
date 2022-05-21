@@ -26,3 +26,13 @@ legend {
     border-radius: 5px;
     padding: 10px;
 }
+.inputUser {
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
