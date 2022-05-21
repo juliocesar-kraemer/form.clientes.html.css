@@ -5,55 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form.clientes</title>
+    <link rel="stylesheet" href="form.clientes.css">
 </head>
 
 <body>
+
     <div class="box">
         <form action="">
+
             <fieldset>
                 <legend><b>Formulário de clientes</b></legend>
+
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="inputLabel">Nome completo</label>
-                    <br><br>
-                    <input type="email" name="email" id="email" class="inputUser" required>
-                    <label for="email" class="inputLabel">E-mail</label>
-                    <br><br>
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="inputLabel">Telefone</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="inputLabel">Nome completo</label>
+                <br><br>
+                <input type="email" name="email" id="email" class="inputUser" required>
+                <label for="email" class="inputLabel">E-mail</label>
+                <br><br>
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                <label for="telefone" class="inputLabel">Telefone</label>
                 </div>
-                <p>Sexo</p>
-                <input type="radio" name="genero" id="masculino" required>
-                <label for="masculino">Masculino</label>
-                <br>
-                <input type="radio" name="genero" id="feminino" required>
-                <label for="feminino">Feminino</label>
-                <br>
-                <input type="radio" name="genero" id="outros" required>
-                <label for="outros">Outros</label>
-                <br><br>
-                <label for="data"><b>Data de nascimento:</b></label>
-                <input type="date" name="data" id="data" required>
-                <br><br>
-                <label for="data"><b>Data de nascimento:</b></label>
-                <input type="date" name="data" id="data" class="InputUser" required>
-                <br><br>
-                <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                <label for="cidade" class="inputLabel">Cidade</label>
-                <br><br>
-                <input type="text" name="estado" id="estado" class="inputUser" required>
-                <label for="estado" class="inputLabel">Estado</label>
-                <br><br>
-                <input type="text" name="endereço" id="endereço" class="inputUser" required>
-                <label for="endereço" class="inputLabel">Endereço</label>
-                <br><br>
-                <input type="submit" name="submit" id="submit">
 
-                <br><br>
+                <p>Sexo:</p>
+                 <input type="radio" name="genero" id="feminino" value="feminino" required>
+                 <label for="feminino">Feminino</label>
+                 <br>
+                 <input type="radio" name="genero" id="masculino" value="masculino" required>
+                 <label for="masculino">Masculino</label>
+                 <br>
+                 <input type="radio" name="genero" id="outros" value="masculino" required>
+                 <label for="outros">Outros</label>
+                 <br><br>
 
-                
+                 <label for="data"><b>Dta de nascimento:</b></label>
+                 <input type="date" name="data" id="data" required>
+                 <br><br>
+
+                 <div class="inputBox">
+                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                     <label for="cidade" class="inputLabel">Cidade</label>
+                     <br><br>
+                     <input type="text" name="estado" id="estado" class="inpuitUser" required>
+                     <label for="estado" class="inputLabel">Estado</label>
+                     <br><br>
+                     <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                     <label for="endereço" class="inputLabel">Endereço</label>
+                     <br><br>
+                     <input type="submit" name="submit" id="submit">
+                 </div>
 
             </fieldset>
+
         </form>
     </div>
     
